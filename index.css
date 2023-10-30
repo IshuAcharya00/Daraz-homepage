@@ -1,0 +1,215 @@
+.daraz-logo {
+  background-color: orangered;
+}
+body{
+width: 100vw;
+}
+.search-bar {
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: orangered;
+  gap: 20px;
+  height: 150px;
+}
+/* anchor tag ko sab kura lai cahnge hunxa  */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.hero-image {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.hero-section-content ul {
+  list-style: none;
+}
+.hero-section-content ul li {
+  margin-top: 10px;
+  /* margin top dekhi matra change hudai janxa */
+}
+.small-cards-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.small-card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.small-card-content h1 {
+  font-size: 17px;
+}
+
+.flash-sale-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.flash-sale-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+.flash-sale-item img {
+  height: 200px;
+  width: 200px;
+}
+.flash-sale-item p {
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+.flash-sale-item span {
+  color: red;
+}
+.flash-sale-wrapper h1 {
+  margin: 30px 100px;
+  text-transform: capitalize;
+}
+.daraz-mall-items-wrapper h1 {
+  margin: 30px 100px;
+  text-transform: capitalize;
+}
+.daraz-mall-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.daraz-mall-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.daraz-mall-item span {
+  color: gray;
+}
+.daraz-mall-item img {
+  height: 200px;
+  width: 200px;
+}
+/* categories wrapper starts here */
+.categories-wrapper h1 {
+  margin: 30px 100px;
+  text-transform: capitalize;
+}
+.categories-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.categories-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.categories-item img {
+  height: 150px;
+  width: 150px;
+}
+.categories-item span {
+  font-size: 10px;
+}
+
+.just-for-you-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.just-for-you-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.just-for-you-item img {
+  height: 150px;
+  width: 150px;
+}
+.just-for-you-item p {
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+.just-for-you-item span {
+  color: red;
+}
+
+.just-for-you-wrapper h1 {
+  margin: 30px 100px;
+  text-transform: capitalize;
+}
+
+.footer-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.footer-section-content1 {
+  width: 200px;
+  color: gray;
+}
+.footer-section-content2 {
+  width: 200px;
+  color: gray;
+}
+.footer-section-content3{
+  width: 200px;
+  color: gray;
+}
+.footer-section-content4{
+  width: 200px;
+  color: gray;
+}
